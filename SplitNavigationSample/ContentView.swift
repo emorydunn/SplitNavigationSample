@@ -8,19 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+
+	@EnvironmentObject var petshop: PetShop
+
+	@State var useSplitView =  true
+
+	var body: some View {
+		Group {
+			if useSplitView {
+				PetShopSplitView()
+			} else {
+				PetShopNavView()
+			}
+		}
+		.toolbar {
+			ToolbarItem {
+				Text(verbatim: useSplitView ? "NavigationSplitView" : "NavigationView")
+			}
+			ToolbarItem {
+				Toggle("Split View", isOn: $useSplitView)
+					.toggleStyle(.switch)
+			}
+		}
+	}
+
+
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+	static var previews: some View {
+		ContentView()
+	}
 }

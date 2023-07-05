@@ -11,6 +11,14 @@
 		D21693932A55B7E7007E96C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21693922A55B7E7007E96C0 /* ContentView.swift */; };
 		D21693952A55B7E8007E96C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D21693942A55B7E8007E96C0 /* Assets.xcassets */; };
 		D21693982A55B7E8007E96C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D21693972A55B7E8007E96C0 /* Preview Assets.xcassets */; };
+		D21693A12A55B809007E96C0 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21693A02A55B809007E96C0 /* Cat.swift */; };
+		D21693A32A55B830007E96C0 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21693A22A55B830007E96C0 /* Dog.swift */; };
+		D21693A52A55B851007E96C0 /* CatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21693A42A55B851007E96C0 /* CatDetailView.swift */; };
+		D21693A72A55B8C0007E96C0 /* DogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21693A62A55B8C0007E96C0 /* DogDetailView.swift */; };
+		D21693A92A55B900007E96C0 /* PetShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21693A82A55B900007E96C0 /* PetShop.swift */; };
+		D21693AB2A55BDFE007E96C0 /* PetShopSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21693AA2A55BDFE007E96C0 /* PetShopSplitView.swift */; };
+		D21693AD2A55BE4E007E96C0 /* SidebarButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21693AC2A55BE4E007E96C0 /* SidebarButtons.swift */; };
+		D21693B22A55BEE9007E96C0 /* PetShopNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21693B12A55BEE9007E96C0 /* PetShopNavView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		D21693942A55B7E8007E96C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D21693972A55B7E8007E96C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D21693992A55B7E8007E96C0 /* SplitNavigationSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SplitNavigationSample.entitlements; sourceTree = "<group>"; };
+		D21693A02A55B809007E96C0 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		D21693A22A55B830007E96C0 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		D21693A42A55B851007E96C0 /* CatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailView.swift; sourceTree = "<group>"; };
+		D21693A62A55B8C0007E96C0 /* DogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDetailView.swift; sourceTree = "<group>"; };
+		D21693A82A55B900007E96C0 /* PetShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShop.swift; sourceTree = "<group>"; };
+		D21693AA2A55BDFE007E96C0 /* PetShopSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShopSplitView.swift; sourceTree = "<group>"; };
+		D21693AC2A55BE4E007E96C0 /* SidebarButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarButtons.swift; sourceTree = "<group>"; };
+		D21693B12A55BEE9007E96C0 /* PetShopNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShopNavView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +68,10 @@
 		D216938F2A55B7E7007E96C0 /* SplitNavigationSample */ = {
 			isa = PBXGroup;
 			children = (
-				D21693902A55B7E7007E96C0 /* SplitNavigationSampleApp.swift */,
+				D21693AE2A55BE6C007E96C0 /* Views */,
+				D216939F2A55B7F2007E96C0 /* Models */,
 				D21693922A55B7E7007E96C0 /* ContentView.swift */,
+				D21693902A55B7E7007E96C0 /* SplitNavigationSampleApp.swift */,
 				D21693942A55B7E8007E96C0 /* Assets.xcassets */,
 				D21693992A55B7E8007E96C0 /* SplitNavigationSample.entitlements */,
 				D21693962A55B7E8007E96C0 /* Preview Content */,
@@ -67,6 +85,44 @@
 				D21693972A55B7E8007E96C0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D216939F2A55B7F2007E96C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D21693A02A55B809007E96C0 /* Cat.swift */,
+				D21693A22A55B830007E96C0 /* Dog.swift */,
+				D21693A82A55B900007E96C0 /* PetShop.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D21693AE2A55BE6C007E96C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D21693B02A55BE88007E96C0 /* Components */,
+				D21693AA2A55BDFE007E96C0 /* PetShopSplitView.swift */,
+				D21693B12A55BEE9007E96C0 /* PetShopNavView.swift */,
+				D21693AF2A55BE7F007E96C0 /* Details */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D21693AF2A55BE7F007E96C0 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				D21693A62A55B8C0007E96C0 /* DogDetailView.swift */,
+				D21693A42A55B851007E96C0 /* CatDetailView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		D21693B02A55BE88007E96C0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D21693AC2A55BE4E007E96C0 /* SidebarButtons.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +195,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21693AD2A55BE4E007E96C0 /* SidebarButtons.swift in Sources */,
 				D21693932A55B7E7007E96C0 /* ContentView.swift in Sources */,
+				D21693A92A55B900007E96C0 /* PetShop.swift in Sources */,
+				D21693A52A55B851007E96C0 /* CatDetailView.swift in Sources */,
+				D21693B22A55BEE9007E96C0 /* PetShopNavView.swift in Sources */,
+				D21693AB2A55BDFE007E96C0 /* PetShopSplitView.swift in Sources */,
 				D21693912A55B7E7007E96C0 /* SplitNavigationSampleApp.swift in Sources */,
+				D21693A32A55B830007E96C0 /* Dog.swift in Sources */,
+				D21693A72A55B8C0007E96C0 /* DogDetailView.swift in Sources */,
+				D21693A12A55B809007E96C0 /* Cat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
