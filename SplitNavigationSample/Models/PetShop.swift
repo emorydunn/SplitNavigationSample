@@ -22,4 +22,9 @@ class PetShop: ObservableObject {
 		Dog(name: "Gracey"),
 	]
 
+	@Published var birds: [Bird] = [
+		Bird(name: "Polly Parrot"),
+		Bird(name: "Big Bird")
+	]
+
 }

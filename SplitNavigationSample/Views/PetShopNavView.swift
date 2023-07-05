@@ -36,6 +36,16 @@ struct PetShopNavView: View {
 							}
 						}
 					}
+
+					Section("Birds") {
+						ForEach(petshop.birds) { bird in
+							NavigationLink {
+								BirdDetailView(bird: bird)
+							} label: {
+								Label(bird.name, systemImage: "bird")
+							}
+						}
+					}
 				}
 
 				Divider()

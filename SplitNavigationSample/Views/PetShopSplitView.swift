@@ -22,7 +22,6 @@ struct PetShopSplitView: View {
 							NavigationLink(value: cat) {
 								Label(cat.name, image: "cat")
 							}
-
 						}
 					}
 
@@ -31,7 +30,14 @@ struct PetShopSplitView: View {
 							NavigationLink(value: dog) {
 								Label(dog.name, image: "dog")
 							}
+						}
+					}
 
+					Section("Birds") {
+						ForEach(petshop.birds) { bird in
+							NavigationLink(value: bird) {
+								Label(bird.name, systemImage: "bird")
+							}
 						}
 					}
 				}
@@ -40,6 +46,9 @@ struct PetShopSplitView: View {
 				}
 				.navigationDestination(for: Dog.self) { dog in
 					DogDetailView(dog: dog)
+				}
+				.navigationDestination(for: Bird.self) { bird in
+					BirdDetailView(bird: bird)
 				}
 
 				Divider()

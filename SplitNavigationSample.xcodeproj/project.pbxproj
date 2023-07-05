@@ -19,6 +19,8 @@
 		D21693AB2A55BDFE007E96C0 /* PetShopSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21693AA2A55BDFE007E96C0 /* PetShopSplitView.swift */; };
 		D21693AD2A55BE4E007E96C0 /* SidebarButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21693AC2A55BE4E007E96C0 /* SidebarButtons.swift */; };
 		D21693B22A55BEE9007E96C0 /* PetShopNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21693B12A55BEE9007E96C0 /* PetShopNavView.swift */; };
+		D21693B42A55C13F007E96C0 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21693B32A55C13F007E96C0 /* Bird.swift */; };
+		D21693B62A55C158007E96C0 /* BirdDetailVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21693B52A55C158007E96C0 /* BirdDetailVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		D21693AA2A55BDFE007E96C0 /* PetShopSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShopSplitView.swift; sourceTree = "<group>"; };
 		D21693AC2A55BE4E007E96C0 /* SidebarButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarButtons.swift; sourceTree = "<group>"; };
 		D21693B12A55BEE9007E96C0 /* PetShopNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShopNavView.swift; sourceTree = "<group>"; };
+		D21693B32A55C13F007E96C0 /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		D21693B52A55C158007E96C0 /* BirdDetailVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdDetailVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				D21693A02A55B809007E96C0 /* Cat.swift */,
+				D21693B32A55C13F007E96C0 /* Bird.swift */,
 				D21693A22A55B830007E96C0 /* Dog.swift */,
 				D21693A82A55B900007E96C0 /* PetShop.swift */,
 			);
@@ -112,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				D21693A62A55B8C0007E96C0 /* DogDetailView.swift */,
+				D21693B52A55C158007E96C0 /* BirdDetailVIew.swift */,
 				D21693A42A55B851007E96C0 /* CatDetailView.swift */,
 			);
 			path = Details;
@@ -198,7 +204,9 @@
 				D21693AD2A55BE4E007E96C0 /* SidebarButtons.swift in Sources */,
 				D21693932A55B7E7007E96C0 /* ContentView.swift in Sources */,
 				D21693A92A55B900007E96C0 /* PetShop.swift in Sources */,
+				D21693B42A55C13F007E96C0 /* Bird.swift in Sources */,
 				D21693A52A55B851007E96C0 /* CatDetailView.swift in Sources */,
+				D21693B62A55C158007E96C0 /* BirdDetailVIew.swift in Sources */,
 				D21693B22A55BEE9007E96C0 /* PetShopNavView.swift in Sources */,
 				D21693AB2A55BDFE007E96C0 /* PetShopSplitView.swift in Sources */,
 				D21693912A55B7E7007E96C0 /* SplitNavigationSampleApp.swift in Sources */,
