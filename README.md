@@ -6,7 +6,7 @@ However using a `NavigationView` and `NavigationLink.init(destination:label:)` d
 
 ## Models
 
-There are three models, `Cat`, `Bird`, and `Dog`, each demonstrates different behavior.
+There are three models, `Cat`, `Dog`, and `Bird`, each demonstrates different behavior.
 
 ### Cat
 
